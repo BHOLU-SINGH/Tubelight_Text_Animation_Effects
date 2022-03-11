@@ -1,3 +1,9 @@
+/* 
+Author Name	: Bholu Singh
+Website		: Free Projects1 
+File Name 	: style.css
+*/
+
 *{
 	margin: 0;
 	padding: 0;
@@ -13,7 +19,7 @@ body{
 h2{
 	position: relative;
 	font-size: 6em;
-	letter-spacing: 15px;
+	letter-spacing: 5px;
 	color: #0e3742;
 	text-transform: uppercase;
 	width: 100%;
@@ -21,9 +27,15 @@ h2{
 	-webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
 	line-height: 0.70em;
 	outline: none;
-	animation: animate 5s linear infinite;
+	color: #fff;
+	text-shadow: 0 0 10px #03bcf4,
+					0 0 20px #03bcf4,
+					0 0 40px #03bcf4,
+					0 0 80px #03bcf4,
+					0 0 160px #03bcf4;
+	/* animation: animate 5s linear infinite; */
 }
-@keyframes animate{
+/* @keyframes animate{
 	0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
 		color: #0e3742;
 		text-shadow: none;
@@ -36,4 +48,4 @@ h2{
 					0 0 80px #03bcf4,
 					0 0 160px #03bcf4;
 	}
-}
+} */
